@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.026713407, g: 0.07269045, b: 0.21685143, a: 1}
+  m_IndirectSpecularColor: {r: 0.026713405, g: 0.07269046, b: 0.21685144, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1139,6 +1139,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.14611371
       objectReference: {fileID: 0}
+    - target: {fileID: 9570984, guid: 36dd14b7ef773c54e96eb7d110c8b5ce, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3ec65cc90185b9f45bb8651ee81cb41c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2124,6 +2128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlyDragon
       objectReference: {fileID: 0}
+    - target: {fileID: 971994671, guid: a0740f648a2224844a894ba6a107d0a9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f460db43e692f2a489af4101494e3eab, type: 2}
     - target: {fileID: 971994672, guid: a0740f648a2224844a894ba6a107d0a9, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -3582,6 +3590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlyDragon
       objectReference: {fileID: 0}
+    - target: {fileID: 971994671, guid: a0740f648a2224844a894ba6a107d0a9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f460db43e692f2a489af4101494e3eab, type: 2}
     - target: {fileID: 971994672, guid: a0740f648a2224844a894ba6a107d0a9, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
