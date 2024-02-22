@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Funeral.unity
     guid: 7ee30d952a9172a44aa2d42516b52b04
+  - enabled: 1
+    path: Assets/Scenes/CallingOut.unity
+    guid: be9fa1c793f1b9c44a39f3da7873510f
   m_configObjects: {}
