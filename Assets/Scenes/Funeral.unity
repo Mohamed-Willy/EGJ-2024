@@ -329,16 +329,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 810059905}
+      objectReference: {fileID: 810059904}
     - target: {fileID: 1237160335171091014, guid: 23abcdba7a9795e498a9bec8d14e6239,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_enabled
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 1237160335171091014, guid: 23abcdba7a9795e498a9bec8d14e6239,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Behaviour, UnityEngine
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2325012556032333277, guid: 23abcdba7a9795e498a9bec8d14e6239,
         type: 3}
