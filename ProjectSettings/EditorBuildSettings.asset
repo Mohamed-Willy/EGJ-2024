@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CallingOut.unity
     guid: be9fa1c793f1b9c44a39f3da7873510f
+  - enabled: 1
+    path: Assets/Scenes/DestroyingDam.unity
+    guid: 15b73d85bb066884c961ca9b971374e3
   m_configObjects: {}
