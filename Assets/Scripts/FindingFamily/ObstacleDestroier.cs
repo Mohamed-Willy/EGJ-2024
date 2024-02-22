@@ -11,7 +11,7 @@ public class ObstacleDestroier : MonoBehaviour
     [SerializeField] ScoreSetter setter;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Obstacle"))
+        if (other.gameObject.CompareTag("Obstacle") || ColiderType == Typo.Destroyer)
         {
             other.gameObject.SetActive(false);
             if(ColiderType == Typo.Win)
