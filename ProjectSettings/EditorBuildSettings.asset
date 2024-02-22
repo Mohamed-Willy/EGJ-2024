@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ecaf49fe7fd6dd640b5c74b10743235b
+  - enabled: 1
+    path: Assets/Scenes/HappyLife.unity
+    guid: 032970bead07f054b8f7ca8365effa6b
+  - enabled: 1
+    path: Assets/Scenes/DayInLife.unity
+    guid: 0695f974bb306c64eb6fcd353177c463
+  - enabled: 1
     path: Assets/Scenes/EnemyIntro.unity
     guid: 4d655c73f1c52524eb66d89e3fabb671
   - enabled: 1
@@ -20,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CallingOut.unity
     guid: be9fa1c793f1b9c44a39f3da7873510f
+  - enabled: 1
+    path: Assets/Scenes/BearsResponse.unity
+    guid: 478f9d889b69e4e4c973c4b59ea96cec
   - enabled: 1
     path: Assets/Scenes/DestroyingDam.unity
     guid: 15b73d85bb066884c961ca9b971374e3
