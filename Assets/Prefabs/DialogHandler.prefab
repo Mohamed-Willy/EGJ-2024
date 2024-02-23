@@ -122,23 +122,15 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: b3df736433f3473448a827626208e66d, type: 3}
   - name: Mohamed
     characterImage: {fileID: 21300000, guid: 982d24a4269f6b24ba02791c0fb6c50e, type: 3}
-  entries:
-  - text: Hello my freinds its very nice to meet you
-    speaker: 0
-  - text: Who are you and why are you here in our house
-    speaker: 1
-  - text: I came with my friends to ensure that both of us live happily
-    speaker: 0
-  - text: How so as we already have a happy life
-    speaker: 1
-  - text: We will just build a dam to live beside you it will give us electricity
-      and more space and we will always bring you joy and presents
-    speaker: 0
-  - text: We will live a happy life as neighbors
-    speaker: 0
-  - text: I am not comfortable with this option but I don't see a way to stop you
-      ok then
-    speaker: 1
+  - name: Omar Khaled
+    characterImage: {fileID: 21300000, guid: afe92065208c31c41be2af8e0c56f06a, type: 3}
+  - name: Ashraf
+    characterImage: {fileID: 21300000, guid: d085c6914d817d646afb2f44ba151e0f, type: 3}
+  - name: Taha
+    characterImage: {fileID: 21300000, guid: 698e847c19e4cc847bd824051c040b79, type: 3}
+  - name: Tarek
+    characterImage: {fileID: 21300000, guid: 3d9052280cae8284c917e39879f6cacf, type: 3}
+  entries: []
   timeBetweenCharacters: 0.06
   timeBetweenEntries: 1
   dialoguePanel: {fileID: 8531531458025003191}

@@ -5,7 +5,11 @@ enum Speakers
 {
     Hebrew_PIGGY,
     Yasser,
-    Mohamed
+    Mohamed,
+    Omar_Khaled,
+    Ashraf,
+    Tarek,
+    Taha
 }
 [System.Serializable]
 struct Character

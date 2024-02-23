@@ -45,6 +45,7 @@ public class PMovement : MonoBehaviour
             scoreText.text = ("Score: " + score);
             if (score >= 10)
             {
+                Cursor.lockState = CursorLockMode.None;
                 SceneHandler.NextScene();
             }
         }

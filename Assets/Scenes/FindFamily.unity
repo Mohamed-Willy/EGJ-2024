@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2193,6 +2193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
+        type: 3}
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
@@ -2605,6 +2610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: B5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
         type: 3}
@@ -4883,7 +4893,6 @@ GameObject:
   - component: {fileID: 1098610341}
   - component: {fileID: 1098610340}
   - component: {fileID: 1098610339}
-  - component: {fileID: 1098610338}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -4891,28 +4900,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1098610338
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1098610337}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1098610339
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5213,6 +5200,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
+        type: 3}
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
@@ -5322,6 +5314,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
+        type: 3}
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
@@ -5397,6 +5394,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: B3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3643719075556951701, guid: dda355a2557d50d49abfcaac7b1eff2c,
         type: 3}
@@ -8165,6 +8167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd79cd4ee2f548409d7b878221c69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ColiderType: 0
+  setter: {fileID: 0}
 --- !u!65 &2012422099
 BoxCollider:
   m_ObjectHideFlags: 0
