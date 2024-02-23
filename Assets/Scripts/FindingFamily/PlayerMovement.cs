@@ -8,11 +8,11 @@ public class PlayerMovement : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
         if (moveInput > 0)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0f, 1f, 0f, 1f), 0.1f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0f, 0.3f, 0f, 1f), 0.1f);
         }
         else if (moveInput < 0)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0f, -1f, 0f, 1f), 0.1f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, new Quaternion(0f, -0.3f, 0f, 1f), 0.1f);
         }
         else
         {
