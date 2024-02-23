@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.026713405, g: 0.07269046, b: 0.21685144, a: 1}
+  m_IndirectSpecularColor: {r: 0.026713407, g: 0.07269045, b: 0.21685143, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -424,6 +424,11 @@ PrefabInstance:
       propertyPath: entries.Array.data[6].speaker
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5249443062542738642, guid: 23abcdba7a9795e498a9bec8d14e6239,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 6009952748876138356, guid: 23abcdba7a9795e498a9bec8d14e6239,
         type: 3}
       propertyPath: m_Pivot.x
@@ -523,6 +528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531531458025003191, guid: 23abcdba7a9795e498a9bec8d14e6239,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2429,6 +2439,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059758908}
   m_CullTransparentMesh: 1
+--- !u!1 &2110568832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2110568834}
+  - component: {fileID: 2110568833}
+  m_Layer: 0
+  m_Name: Manger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &2110568833
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110568832}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 8b3e561f7bb75a641bff08945a66dcb9, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 6077390207268392282, guid: 8b3e561f7bb75a641bff08945a66dcb9, type: 2}
+    value: {fileID: 1433978775}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &2110568834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110568832}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4700003, y: 1.8999999, z: -5.3099995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2442,3 +2503,4 @@ SceneRoots:
   - {fileID: 1508506121}
   - {fileID: 803188648}
   - {fileID: 1433978777}
+  - {fileID: 2110568834}
